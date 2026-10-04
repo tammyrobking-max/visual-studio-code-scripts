@@ -1,0 +1,8 @@
+UPDATE products
+SET category = 'Office Supplies'
+WHERE product_name LIKE '%desk%';
+
+SELECT product_name, category
+FROM products
+WHERE product_name LIKE '%desk%';
+LIMIT 10
